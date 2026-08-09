@@ -1,0 +1,9 @@
+{
+  "name": "spiderbiters",
+  "version": "0.0.0",
+  "title": "Spiderbiters",
+  "description": "Create biomechanical monstrosities by combining exoskeletons with biter eggs",
+  "author": "codemob",
+  "factorio_version": "2.1",
+  "dependencies": ["space-age"]
+}

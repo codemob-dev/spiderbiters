@@ -1,0 +1,12 @@
+{
+    "Lua.workspace.userThirdParty": [
+        "/home/leo/.config/VSCodium/User/workspaceStorage/99bc056b6c30228e05e532b285ac6991/justarandomgeek.factoriomod-debug/sumneko-3rd"
+    ],
+    "Lua.workspace.checkThirdParty": "ApplyInMemory",
+    "factorio.versions": [
+        {
+            "name": "Factorio Steam",
+            "factorioPath": "/home/leo/.steam/debian-installation/steamapps/common/Factorio/bin/x64/factorio"
+        }
+    ]
+}
