@@ -51,7 +51,7 @@ spiderbiter.type = "spider-unit"
 spiderbiter.name = "spiderbiter"
 
 spiderbiter.spider_engine = {
-  legs = generate_legs(12, 15, 60, 30),
+  legs = generate_legs(6, 15, 60, 30),
   walking_group_overlap = 1 - 1/6
 }
 
@@ -88,12 +88,12 @@ spiderbiter.factoriopedia_simulation = nil
 spiderbiter.is_military_target = true
 spiderbiter.subgroup = "enemies"
 
-spiderbiter.attack_parameters = table.deepcopy(data.raw["ammo-turret"]["rocket-turret"].attack_parameters)
+spiderbiter.attack_parameters = table.deepcopy(data.raw["gun"]["rocket-launcher"].attack_parameters)
 spiderbiter.attack_parameters.ammo_type = table.deepcopy(data.raw["ammo"]["rocket"].ammo_type)
 
 spiderbiter.attack_parameters.cooldown = spiderbiter.attack_parameters.cooldown*0.25
 spiderbiter.attack_parameters.min_attack_distance = nil
-spiderbiter.vision_distance = 100
+spiderbiter.vision_distance = 60
 
 table.insert(spiderbiter.resistances, {
   type = "fire",
