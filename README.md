@@ -1,1 +1,3 @@
-Create biomechanical abominations to mess with your friends. (Also functions as a source for renewable uranium)
+Create biomechanical abominations to mess with your friends, or as a very effective renewable source of uranium.
+
+Just don't let the eggs spoil...
