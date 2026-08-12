@@ -91,7 +91,6 @@ spiderbiter.subgroup = "enemies"
 spiderbiter.attack_parameters = table.deepcopy(data.raw["gun"]["rocket-launcher"].attack_parameters)
 spiderbiter.attack_parameters.ammo_type = table.deepcopy(data.raw["ammo"]["rocket"].ammo_type)
 
-spiderbiter.attack_parameters.cooldown = spiderbiter.attack_parameters.cooldown*0.25
 spiderbiter.attack_parameters.min_attack_distance = nil
 spiderbiter.vision_distance = 60
 
@@ -155,10 +154,11 @@ data:extend{
     ingredients =
     {
       {type = "item", name = "biter-egg", amount = 1},
-      {type = "item", name = "copper-cable", amount = 24},
+      {type = "item", name = "copper-cable", amount = 12},
+      {type = "item", name = "iron-gear-wheel", amount = 12},
       {type = "item", name = "electronic-circuit", amount = 1},
-      {type = "item", name = "exoskeleton-equipment", amount = 6},
-      {type = "item", name = "rocket-launcher", amount = 4},
+      {type = "item", name = "exoskeleton-equipment", amount = 3},
+      {type = "item", name = "rocket-launcher", amount = 1},
     },
     results =
     {
